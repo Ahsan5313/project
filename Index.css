@@ -1,0 +1,97 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration:none;
+	list-style:none;
+	box-sizing:border-box;
+	
+}
+.head{
+	width:100%;
+	height:50px;
+	background:#2d2f30;
+	position:fixed;
+}
+.phone{
+	color:white;
+	line-height:50px;
+	text-decoration:none;
+	float:right;
+	margin-right:10px;
+	padding:2px 6px;
+
+}
+.top_email{
+	color:white;
+	line-height:50px;
+	text-decoration:none;
+	float:right;
+	margin-right:10p;
+	padding:2px 6px;
+
+}
+.sec-bar{
+	width:100%;
+	height:500px;
+	margin-top:50px;
+	
+}
+.head1{
+	width:100%;
+	height:800px;
+	background:url("creative-people-discussing.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-bottom:5px solid yellow;
+	
+}
+.head1 ul{
+	float:right;
+    display:flex;
+	
+}
+.head1 ul li{
+position:relative;
+	left:300px;
+}
+.head1 ul li a{
+	color:white;
+	font-size:20px;
+	margin:5px;
+	padding:5px;
+	text-transform:uppercase;
+	margin-top:7px;
+	text-shadow:5px 7px 3px red;
+}
+.head1 p{
+	
+	position:relative;
+	top:550px;
+	left:80%;
+	font-size:35px;
+	text-transform:uppercase;
+	color:white;
+	
+}
+.tablebar{
+	position:relative;
+	width:100%;
+	top:850px;
+	border-collapse:collapse;
+	font-size:25px;
+	font-family:montserrat;
+	text-transform:capitalize;
+	text-align:center;
+	padding:5px 7px;
+	
+	
+}
+.tablebar tbody tr:hover:nth-child(even){
+	background-color:red;
+}
+.tablebar tbody tr:hover:nth-child(odd){
+	background-color:green;
+}
+.tablebar thead :hover:nth-child(1){
+	background-color:pink;
+}
